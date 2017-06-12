@@ -10,7 +10,8 @@ nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	left: 30%;
+	left: 26%;
+	z-index: 4;
 
 }
 ul{
@@ -26,8 +27,8 @@ li{
 	justify-content: center;
 	align-items: center;
 	margin: 20px;
-	width: 60px;
-	height: 25px;
+	width: 90px;
+	height: 23px;
 	list-style: none;
 	border-radius: 25px;
 	border: 1px solid #00416d;
@@ -61,46 +62,64 @@ li{
 .titulo1{
 	display: flex;
 	position: absolute;
-	top: 38%;
-	left: 6%;
-	letter-spacing: 0em;
+	top: 46%;
+	left: 20%;
+	letter-spacing: 10px;
 	color: #ffffff;
 	font-style: normal;
-	line-height: 1.29em;
-	font-family: PTMono-bold;
+	line-height: 1.20em;
 	width: 50px;
 	font-size: 5em;
 }
 .titulo2{
 	display: flex;
     position: absolute;
-    top: 46%;
-    left: 43%;
+    top: 68%;
+    left: 59%;
     letter-spacing: 0em;
     color: #ffffff;
     font-style: normal;
     line-height: 1.29em;
-    font-size: 2,5em;
-    font-family: PTMono-bold;
+    font-size: 2.5em;
 	text-align: left;
-	line-height:4.29em;
+
 }
 
-#ações.html{
+main{
 	display: flex;
-    width: 50%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 8%;
 }
 .prgf1 {
-	font-family:SouceSansPro-Bold
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 70%;
 	font-size: 1.88em
-	color: #1f4ecc
 	font-style: normal;
 	text-align: left;
-	line-height: 2.29em
-	letter-spacing: 0em
+	line-height: 1.49em;
+	letter-spacing: 0em;
+	color: #1f4ecc;
+	margin-left: 10%;
 
 }
 
 .prgf2 {
-
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 70%;
+	font-size: 1.25em
+	color: blue;
+	/*font-style: normal;*/
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	color: #1f4ecc;
+	margin-left: 10%;
 }
