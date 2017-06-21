@@ -94,6 +94,24 @@ position: absolute;
     color: blue;
 }
 
+.p4{
+	position: absolute;
+    color: white;
+    left: 65px;
+    top: 42px;
+
+}
+
+.p5{
+	    position: absolute;
+    color: white;
+    left: 40px;
+    top: 68px;
+
+}
+
+
+
 .h1{
 position: absolute;
     left: 23px;
@@ -121,6 +139,13 @@ position: absolute;
     font-size: 22px;
 }
 
+.h4{
+
+    position: absolute;
+    color: white;
+    left: 140px;
+    top: 9px;
+}
 
 .section1{
     position: relative;
@@ -152,7 +177,7 @@ position: absolute;
     height: 392px;
 }
 .content3{
-border-radius: 18px;
+	border-radius: 18px;
     position: absolute;
     border: solid red;
     flex-direction: column;
@@ -199,7 +224,7 @@ main{
 	width: 46%;
     font-family: 'SourceSansPro-Bold';
     color: blue;
-    left: -129px;
+    left: -8.1em;
     position: absolute;
     top: 97px;
     margin: auto;
@@ -210,7 +235,7 @@ main{
 .prgf2 {
 	
 width: 69%;
-    left: -121px;
+    left: -10.1em;
     position: absolute;
     top: 301px;
     margin: -11px;
@@ -220,12 +245,14 @@ width: 69%;
 
 .footer{
 	position: absolute;
-	border-radius:15%;
+	border-radius: 25px;
 	border-style: solid;	
 	top: 330%;
     left: 70%;
     width: 30%;
     height: 163px;
     margin: -17px;
-    padding: -18px; 	
+    padding: -18px; 
+    background-color: black;
+    opacity: 0.5;	
 }
