@@ -2,9 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 }
-header{
-		
-}
+
 nav{
     font-family: 'SourceSansPro-Regular';
 	position: fixed;
@@ -283,10 +281,10 @@ main{
 	position: absolute;
 	border-radius:25px;
 	/*border-style: solid;	*/
-	top: 320%;
-    left: 70%;
-    width: 28.84%;
-    height: 28%;
+	top: 314%;
+    left: 71%;
+    width: 26.84%;
+    height: 26%;
     /*margin: 23%;*/
     /*padding: 0px; */
     background-color: black;
@@ -316,11 +314,50 @@ main{
     
 
 }
+header {  
+    background: url(pencil1.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    -o-background-size: cover;  
+    background-size: cover;  
+}  
 
-
-@media screen and (max-width: 908px) {
+@media screen and (max-width: 320px) {
     body {
-        background-color: blue;
+       margin: 0;
+       padding:0;
+    }
+    .img1{
+    	width: 180%;
+    	height: auto;
+
     }
 
+    header{
+    	width: 197%;
+    	height: 100%;
+    }
+    nav{
+    	left: 7%;
+    }
+
+    li{
+    	margin: 3px;
+    }
+    .titulo1{
+       top: 41%;
+    left: 23%;
+    width: 81px;
+    font-size: 5em;
+	}
+	.titulo2{
+    position: relative;
+    top: 417px;
+    left: 13%;
+    font-size: 3.5em;
+    
+    
+	}
+  
+}  
 
