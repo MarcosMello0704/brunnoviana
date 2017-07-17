@@ -18,11 +18,25 @@ header {
     background-size: cover;  
 }  
 
+@media(max-height: 620px){
+    header{
+    display: flex;
+    height: 100vh;
+    position:relative;
+    background: url(pencil1.jpg) no-repeat center fixed; 
+  /*  left: 78%;
+    top: 0%;*/
+    background-size: cover;
+
+    }
+}
+
 @media (max-width: 1366px) {
    header {
     width: 100%;
     height: 100vh;
     padding: 0;
+    }
 }
 
 nav{
@@ -34,6 +48,19 @@ nav{
 	order: 4;
 
     transform: translateX(-50%);
+}
+
+@media (max-width: 620px){
+    nav{
+    left:27%;
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    }
+
 }
 
 @media (max-width: 1366px) {
@@ -67,18 +94,29 @@ ul{
  	
 }
 
+@media (max-width: 620px){
+    ul {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    width: 67%;
+    position: relative;
+    left: 25%;
+    }
+}
+
 @media (max-width: 1366px) {
     ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
     }
 }
 
 
-li{
+.item{
 	display: flex;
 	background-color: #fff;
 	justify-content: center;
@@ -89,6 +127,14 @@ li{
 	list-style: none;
 	border-radius: 25px;
 	border: 1px solid #00416d;
+}
+
+@media (max-width: 620px){
+    .item {
+    width: 23%;
+    margin: 1%;
+    padding: 2%;
+    }
 }
 
 h1{
@@ -111,6 +157,16 @@ main{
 
 }
 
+@media(max-width: 620px){
+    main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51vh;
+    height: 81vh;  
+    }
+}
+
 @media (max-width: 1366px) {
     main {
     display: flex;
@@ -130,6 +186,19 @@ main{
     top: 4%;
     left: 46%;;
 }
+
+@media(max-width: 620px){
+    .linha{
+    height: 86%;
+    color: #d5d5d5;
+    border: solid 3px;
+    position: absolute;
+    top: 4%;
+    left: 46%;
+    opacity: -0.5;
+    }
+}
+
 @media (max-width: 1366px){
     .linha {
     height: 86%;
@@ -181,6 +250,17 @@ main{
     padding:14px;
 }
 
+@media(max-width: 620px){
+    .p4{
+    color: white;
+    font-size: 15px;
+    padding: 14px;
+    position: relative;
+    top: 28%;
+    right: -10%;  
+    }
+}
+
 @media (max-width: 1366px){
     .p4 {
     color: white;
@@ -195,6 +275,16 @@ main{
 .p5{
     color: white;
     font-size: 14px;
+}
+
+@media(max-width: 620px){
+    .p5{
+    color: white;
+    font-size: 15px;
+    left: 15%;
+    top: 42%;
+    position: absolute;  
+    }
 }
 
 @media (max-width: 1366px){
@@ -244,6 +334,8 @@ main{
     color: #f9f9fc;
 }
 
+
+
 @media (max-width: 1366px){
     .h4 {
     position: absolute;
@@ -262,6 +354,21 @@ main{
     height: 130vh;
     padding: 10px;
 
+}
+
+@media(max-width: 620px){
+    .section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 92vh;
+    padding: 10px;
+    position: relative;
+    top: 4%;
+
+    }
 }
 
 @media (max-width: 1366px) {
@@ -286,6 +393,20 @@ main{
     position: relative;
     top: -18%;
 }
+
+@media(max-width: 620px){
+    .contentPrincipal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: -3%;
+    }
+}
+
 @media (max-width: 1366px){
     .contentPrincipal {
     display: flex;
@@ -297,6 +418,7 @@ main{
     top: -3%;
     }
 }
+
 
 .content1{
     font-family: 'PTMono-Bold';
@@ -340,6 +462,20 @@ main{
     font-size: 5em;
 }
 
+@media (max-width: 620px){
+    .titulo1 {
+    /*display: flex;
+    position: absolute;
+    line-height: 103%;
+    color: #ffffff;
+    font-style: normal;*/
+    width: 71%;
+    /*font-size: 52px;*/
+    left: 12%;
+    top: 25%;
+    }
+}
+
 @media (max-width: 1366px){
     .titulo1{
    display: flex;
@@ -354,8 +490,9 @@ main{
     font-size: 5em;
     }
 }
+
 .titulo2{
-  font-family: 'PTMono-Bold';
+    font-family: 'PTMono-Bold';
     display: flex;
     position: absolute;
     top: 61%;
@@ -366,6 +503,18 @@ main{
     font-size: 2.5em;
     text-align: left;
     letter-spacing: 3px;
+}
+
+@media (max-width: 620px){
+    .titulo2 {
+    
+    display: flex;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    letter-spacing: 3
+    width: 74%;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -399,6 +548,18 @@ main{
     align-content: space-around; 
 }
 
+@media(max-width: 620px){
+    .pagrafoContainer{
+    width: 82%;
+    position: relative;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+    }
+}
+
 @media (max-width: 1366px){
     .paragrafoContainer {
     width: 44%;
@@ -425,6 +586,23 @@ main{
 	
 }
 
+@media(max-width: 620px){
+    .prgf1{
+    font-family: 'SourceSansPro-Bold';
+    font-size: 1.88em;
+    color: #0937b1;
+    font-style: normal;
+    text-align: left;
+    line-height: 113%;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+    border: 0px solid;
+
+    }
+}
+
 @media (max-width: 1366px){
     .prgf1 {
     font-family: 'SourceSansPro-Bold';
@@ -440,6 +618,8 @@ main{
     border: 0px solid;
     }
 }    
+
+
 	
 .prgf2 {
     font-family: 'SourceSansPro-Regular';
@@ -456,6 +636,23 @@ main{
     top: 140%;
 }
 
+@media(max-width: 620px){
+    .prgf2{
+    font-family: 'SourceSansPro-Regular';
+    font-size: 1.25em;
+    color: #1f4ecc;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.07em;
+    letter-spacing: 0em;
+    margin: 0;
+    max-width: 86%;
+    border: 0px solid;
+    position: absolute;
+    top: 107%;
+
+    }
+}
 @media (max-width: 1366px){
     .prgf2 {
     font-family: 'SourceSansPro-Regular';
@@ -473,13 +670,24 @@ main{
     }
 }
 
+
 .contato {
-    position: relative;
+    position: initia
     width: 100%;
     height: 100vh;
-
     background: url('pencil2.jpg') no-repeat center;
     background-size: cover;
+}
+
+@media (max-width: 620px){
+    .contato{
+    position: initial;
+    width: 100%;
+    height: 100vh;
+    background: url('pencil2.jpg') no-repeat center;
+    background-size: cover;
+
+    }
 }
 
 .footer{ 
@@ -492,6 +700,21 @@ main{
     background-color: black;
     opacity: 0.5;
 
+}
+
+@media(max-width: 620px){
+    .footer{
+    border-radius: 25px;
+    position: relative;
+    left: 66%;
+    top: 37%;
+    width: 20%;
+    height: 21%;
+    margin: 0%;
+    background-color: black;
+    opacity: 0.5;
+
+    }
 }
 
 @media (max-width: 1366px){
@@ -516,6 +739,18 @@ main{
     left: 33%;
 }
 
+}
+@media(max-width: 620px){
+    .facebook{
+    width: 20%;
+    height: 33%;
+    border: 0;
+    position: absolute;
+    left: 52%;
+    top: 58%;
+    }
+}
+
 @media (max-width: 1366px){
    .facebook {
     width: 20%;
@@ -536,6 +771,18 @@ main{
     left: 55%;
     
 
+}
+
+@media(max-width: 620px){
+    .Youtube{
+    width: 19%;
+    height: 32%;
+    border: 0;
+    border-radius: 54%;
+    position: absolute;
+    left: 76%;
+    top: 59%;
+    }    
 }
 
 @media (max-width: 1366px){
