@@ -20,13 +20,9 @@ header {
 
 @media(max-height: 620px){
     header{
-    display: flex;
     height: 100vh;
     position:relative;
-    background: url(pencil1.jpg) no-repeat center fixed; 
-  /*  left: 78%;
-    top: 0%;*/
-    background-size: cover;
+    box-sizing: border-box;
 
     }
 }
@@ -65,13 +61,6 @@ nav{
 
 @media (max-width: 1366px) {
     nav{
-   /* font-family: 'SourceSansPro-Regular';
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
-
-
     font-family: 'SourceSansPro-Regular';
     position: fixed;
     display: flex;
@@ -79,7 +68,6 @@ nav{
     align-items: center;
     left: 48%;
     z-index: 4;
-    
     }
 
 }
@@ -358,14 +346,8 @@ main{
 
 @media(max-width: 620px){
     .section1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
-    height: 92vh;
-    padding: 10px;
-    position: relative;
+    height:100vh;
     top: 4%;
 
     }
@@ -385,9 +367,6 @@ main{
 }
 
 .contentPrincipal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 50%;
     height: auto;
     position: relative;
@@ -396,10 +375,10 @@ main{
 
 @media(max-width: 620px){
     .contentPrincipal{
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;
     flex-direction: column;
-    align-items: center;
+    align-items: center;*/
     width: 50%;
     height: auto;
     position: relative;
