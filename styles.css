@@ -9,17 +9,56 @@ body{
     padding:0;
 }
 
+                                                                        @media only screen and (max-width: 768px){
+                                                                            body{
+
+                                                                            }    
+                                                                        }
+
 
 #home{
     margin-top: -20px;
     background:url("pencil1.jpg")no-repeat center center ;
     background-size: cover;
-    height: 130vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+                                                                        @media only screen and (max-width: 768px){
+                                                                            #home{
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                            }    
+                                                                        }
+
+
+
+                                                                        @media only screen and (max-width: 620px){
+                                                                            #home{
+                                                                                padding: 0;
+                                                                                margin: 0;
+                                                                                width: 100%;
+                                                                                height: 104vh;
+
+
+                                                                            }
+                                                                        }
+
+
+                                                                        @media only screen and (max-width: 320px) {
+                                                                            #home{
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                width: 98vh;
+                                                                                height: 157vh;
+
+                                                                            }    
+                                                                        }
+
+
                                                         
 .menu{
     position: fixed;
@@ -31,6 +70,29 @@ body{
     width: 100%;
 }
 
+                                                                        @media only screen and (max-width: 768px){
+                                                                            .menu{
+                                                                                position: fixed;
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                                align-items:  center;
+                                                                                top: 0;
+                                                                                z-index: 1;
+                                                                                width: 100%;
+                                                                            }
+                                                                        }
+
+
+                                                                        @media only screen and (max-width: 320px) {
+                                                                            .menu{
+                                                                                display: flex;
+                                                                                padding: 0;
+                                                                                margin: 0;
+
+                                                                            }    
+                                                                        }
+
+
                                                           
 .lista-menu{
     display: flex;
@@ -39,6 +101,16 @@ body{
     padding: 0;
 }
                                                           
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .lista-menu{
+                                                                                display: flex;
+                                                                                padding: 10px;
+                                                                                margin: 12px;
+
+                                                                        }    
+                                                                    }
+
 
 .item-menu{
     padding: 15px 30px;
@@ -60,16 +132,30 @@ body{
     line-height: 0.8em;
     letter-spacing: 0em;
 }
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .item-menu{
+
+                                                                        }    
+                                                                    }
+
                                                            
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .item-menu{
+                                                                            display: flex;
+                                                                            margin: 9px;
+                                                                            padding: 23px;
+                                                                            border-radius: 22px;
+                                                                            width: 100px;
+
+                                                                        }    
+                                                                    }
 
 
 .titulo1{
     text-transform: uppercase;
     width: 37%;
     margin: 0%;
-    margin-top: 15%;
-    margin-right: 8%;   
-
     font-family: 'PTMono-Bold';
     font-size: 5em;
     color: #ffffff;
@@ -77,15 +163,59 @@ body{
     text-align: left;
     line-height: 1.29em;
     letter-spacing: 0em;
+    position: absolute;
+    left: 15%;
+    top: 45%;
 }
-                                                           
+
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .titulo1{
+                                                                            width:47%;
+                                                                            height:37%;
+                                                                            margin: 0%;
+                                                                            font-family:'PTMono-Bold';
+                                                                            font-size: 57px;
+                                                                            color: #ffffff;
+                                                                            font-style: normal;
+                                                                            letter-spacing: 0em;
+                                                                            position: absolute;
+                                                                            left: 9%;
+                                                                            top: 44%;    
+                                                                        }
+                                                                    }
+
+
                                                          
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .titulo1{
+                                                                            position: absolute;
+                                                                            top: 25%;
+                                                                            width: 75%;
+                                                                            height: 27vh;
+                                                                            left: 13%;
+                                                                            font-size: 70px;
+
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .titulo1{
+                                                                            position: absolute;
+                                                                            width: 143%;
+                                                                            height: 33vh;
+                                                                            left: 9%;
+                                                                            top: 45%;
+
+                                                                        }    
+                                                                    }
+
+
 
 .titulo2{
-    color: #fff;
-    margin-top: 27%;
-    margin-right: 15%;
-
     font-family: 'PTMono-Bold';
     font-size: 2.5em;
     color: #ffffff;
@@ -93,19 +223,96 @@ body{
     text-align: left;
     line-height: 2.14em;
     letter-spacing: 0em;
+    margin-top: 25%;
+    margin-right: -42%;
 }
-    
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .titulo2{
+                                                                            width: 62vh;
+                                                                            height: 17%;
+                                                                            margin: 0px;
+                                                                            position: absolute;
+                                                                            top: 60%;
+                                                                            left: 62%;
+                                                                            font-size: 31px;
+
+                                                                            }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .titulo2{
+                                                                            position: absolute;
+                                                                            top: 52%;
+                                                                            left: 13%;
+                                                                            width: 74%;
+                                                                            font-size: 68px;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .titulo2{
+                                                                            position: absolute;
+                                                                            width: 145%;
+                                                                            height: 22%;
+                                                                            top: 73%;
+                                                                            left: 9%;
+                                                                            font-size: 67px;
+
+                                                                        }    
+                                                                    }
+
+
+
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-}                                                            
+    height: 111vh;
+    position: relative;
+    padding: 1%;
+    margin: 1%;
+}     
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        main{
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            height: 256vh;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        main{
+                                                                           height: 403vh;
+                                                                            width: 100%;
+                                                                            padding: 0;
+                                                                            margin: 0;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        main{
+                                                                            display: flex;
+                                                                            position: relative;
+                                                                            width: 158%;
+                                                                            height: 541vh;
+
+
+                                                                        }    
+                                                                    }
+
 
 #sobre{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
     font-family: 'SourceSansPro-Bold';
     font-size: 1.88em;
     color: #1f4ecc;
@@ -113,29 +320,43 @@ main{
     text-align: left;
     line-height: 1.61em;
     letter-spacing: 0em;
-    width: 49%;
-    padding: 9%;
-
-}                                               
-/*.section1{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 13%;
-    font-family: 'SourceSansPro-Bold';
-    font-size: 1.88em;
-    color: #1f4ecc;
-    font-style: normal;
-    text-align: left;
-    line-height: 1.61em;
-    letter-spacing: 0em;
+    width: 48%;
+    height: 100vh;
+    padding: 0;
+    margin: 0
 }
- */                                                         
-                                                                        
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        #sobre{
+                                                                            width: 100%;
+                                                                            height: 100vh;
+                                                                            position: relative;
+                                                                            top: -72vh;
+
+
+
+                                                                        }   
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        #sobre{
+                                                                            display: flex;
+                                                                            position: relative;
+                                                                            height: 130vh;
+                                                                            top: -35vh;
+
+
+                                                                        }    
+                                                                    }
+
 
 .prgf1{
-    width: 100%; 
+    width: 75%; 
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     color: #1f4ecc;
@@ -145,31 +366,178 @@ main{
     line-height: 1em;
     letter-spacing: 0em;
 }
-                                                           
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .prgf1{
+                                                                            width: 60%;
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                            position: absolute;
+                                                                            top: 22%;
+
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .prgf1{
+                                                                            position: absolute;
+                                                                            top: 26%;
+                                                                            width: 58%;
+                                                                            left: 22%;
+                                                                            line-height: 29px;
+                                                                            height: 39vh;
+                                                                            font-size: 29px;
+
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .prgf1{
+                                                                            position: absolute;
+                                                                            width: 73%;
+                                                                            left: 13%;
+                                                                            line-height: normal;
+
+                                                                        }    
+                                                                    }
+
 
 .prgf2{
-    width: 100%;
+    width: 75%;
     height:10%;
     font-family: 'Source Sans Pro Regular', sans-serif;
-    font-size: 0.72em;
+    font-size: 0.60em;
     color: #1f4ecc;
     font-style: normal;
     text-align: left;
     margin-left: -20%;
     line-height: 1em;
     letter-spacing: 0em;
-}    
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .prgf2{
+                                                                            width: 60%;
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                            position: absolute;
+                                                                            top: 39%;
 
 
-.section2{
+
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .prgf2{
+                                                                            position: absolute;
+                                                                            top: 70%;
+                                                                            width: 62%;
+                                                                            left: 22%;
+                                                                            line-height: normal;
+                                                                            font-size: 16px;
+
+
+                                                                        }
+                                                                    }
+
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .prgf2{
+                                                                            position: absolute;
+                                                                            left: 13%;
+                                                                            top: 69%;
+                                                                            width: 75%;
+                                                                            height: 25%;
+                                                                            font-size: 20px;
+
+                                                                        }     
+                                                                    }
+
+
+
+.linha{
+    position: absolute;
+    left: 46%;
+    width: 6px;
+    border-left: 4px;
+    background-color: silver;
+    height: 82vh;
+    top: 19%;
+    
+
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .linha{
+                                                                            opacity: 0;
+                                                                        }    
+                                                                    }
+
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .linha{
+                                                                            opacity: 0;
+                                                                        }
+                                                                    }
+
+#ações{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     width: 50%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 0%;
+    top: 9%;
 }
 
-h1{ 
+                                                                    @media only screen and (max-width: 768px){
+                                                                        #ações{
+                                                                            width: 100%;
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        #ações{
+                                                                            
+                                                                            display: flex;
+                                                                            position: relative;
+                                                                            flex-direction: column;
+                                                                            width: 56%;
+                                                                            height: 124vh;
+                                                                            left: 0vh;
+
+
+                                                                               
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        #ações{
+                                                                            display: flex;
+                                                                            position: relative;
+                                                                            height: 166vh;
+
+                                                                        }    
+                                                                    }
+
+
+.ações-descrição{ 
 
     font-family: 'SourceSansPro-Bold';
     font-size: 1.88em;
@@ -178,28 +546,97 @@ h1{
     text-align: left;
     line-height: 1.61em;
     letter-spacing: 0em;
+    position: absolute;
+    top: 2%;
+    right: 83%;
+
 
 }
+
+                                                                    @media only screen and (max-width:768px){
+                                                                        .ações-descrição{
+                                                                            position: absolute;
+                                                                            top: 13%;
+                                                                            left: 7%;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .ações-descrição{
+                                                                            position: absolute;
+                                                                            top: 14%;
+                                                                            left: -9%;
+                                                                            font-size: 37px;
+
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .ações-descrição{
+                                                                            position: absolute;
+                                                                            top: 15%;
+
+                                                                        }    
+                                                                    }
+
                                                           
 .content1{
     border-radius: 25px;
-    border:solid 3px red;
+    border:solid 2px red;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding: 5  %;
+    padding: 5%;
     padding-top: 11%;
-    margin: 0px;
-    width: 100%;
+    margin: 4px;
+    width: 150%;
     display: flex;
-    height: 73%;
-    
+    height: 68vh;
+    position: relative;
 }
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .content1{
+                                                                            position: relative;
+                                                                            top: 13%;
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .content1{
+                                                                            position: relative;
+                                                                            top: 30%;
+                                                                            height: 150vh;
+                                                                            width: 136%;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .content1{
+                                                                            height: 612vh;
+                                                                            width: 116%;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding: 0;
+                                                                            margin: 0;
+
+                                                                        }    
+                                                                    }
+
                                                       
 .h1{
-    width: 100%;
-    top: -50px;
+    width: 70%;
+    top: 1%;
     font-family: 'SourceSansPro-Semibold';
     font-size: 1.56em;
     color: #1f4ecc;
@@ -207,12 +644,23 @@ h1{
     text-align: left;
     line-height: 1.34em;
     letter-spacing: 0em;
+    position: absolute;
 }
-                                                            
 
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .h1{
+
+                                                                        }    
+                                                                    }
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .h1{
+                                                                            
+                                                                        }
+                                                                    }
 .p1{
-    width: 100%;
-    top: -50px;
+    width: 75%;
+    top: 25%;
     font-family: 'SourceSansPro-Semibold';
     font-size: 1em;
     color: #1f4ecc;
@@ -220,28 +668,80 @@ h1{
     text-align: left;
     line-height: 1.34em;
     letter-spacing: 0em;
+    position: absolute;
 
 }
                                                             
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .p1{
+
+                                                                        }   
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .p1{
+                                                                            
+                                                                        }
+                                                                    }
 
 
 .content2{
+
     border-radius: 25px;
     border:solid 2px red;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding:  4.50%;
-    margin: 5px;
-    width:  70%;
-    width: 100%;
-    
+    padding: 5%;
+    padding-top: 11%;
+    margin: 4px;
+    width: 150%;
+    display: flex;
+    height: 68vh;
+    position: relative;
+
 }
-                                                          
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .content2{
+                                                                            position: relative;
+                                                                            top: 13%;
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .content2{
+                                                                            position: relative;
+                                                                            top: 35%;
+                                                                            height: 150vh;
+                                                                            width: 136%;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .content2{
+                                                                            height: 612vh;
+                                                                            width: 116%;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding: 0;
+                                                                            margin: 0;
+
+
+                                                                        }    
+                                                                    }
+
+
+
 .h2{
-    width:60%;
-    width: 90%;
+
+    width: 70%;
+    top: 1%;
     font-family: 'SourceSansPro-Semibold';
     font-size: 1.56em;
     color: #1f4ecc;
@@ -249,58 +749,160 @@ h1{
     text-align: left;
     line-height: 1.34em;
     letter-spacing: 0em;
-    
+    position: absolute;
+
 }
-                                                           
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .h2{
+
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .h2{
+                                                                            
+                                                                        }
+                                                                    }
+
 
 .p2{
-    
+
+    width: 77%;
+    top: 25%;
+    font-family: 'SourceSansPro-Semibold';
+    font-size: 1em;
     color: #1f4ecc;
     font-style: normal;
-    text-align: left
-    line-height: 0.75em;
-    font-family: 'SourceSansPro-Regular';
+    text-align: left;
+    line-height: 1.34em;
     letter-spacing: 0em;
-    width: 100%;
-    position: relative;
-    font-size: 0.88em;
-    color: #1f4ecc;
+    position: absolute;
 
 }
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .p2{
+
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .p2{
+                                                                            
+                                                                        }
+                                                                    }
+
                                                             
 .content3{
+
     border-radius: 25px;
-    border: solid 2px red;
+    border:solid 2px red;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 0;
-    width: 33%;
-    height: 42vh;
+    padding: 5%;
+    padding-top: 11%;
+    margin: 4px;
+    width: 150%;
+    display: flex;
+    height: 68vh;
+    position: relative;
+
 }
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .content3{
+                                                                            position: relative;
+                                                                            top: 13%;
+                                                                        }    
+                                                                    }
   
 
-.h3{
-    top: -85px;
-    width: 30vh;
-    color: blue;
-    font-family: 'SourceSansPro-Semibold'
-    line-height: 1.34em;
-    letter-spacing: 0em;
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .content3{
+                                                                            position: relative;
+                                                                            top: 40%;
+                                                                            height: 150vh;
+                                                                            width: 136%;
 
-}
-                                                           
-.p3{
-    font-family: 'SourceSansPro-Regular';
-    font-size:0.88em;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .content3{
+                                                                            height: 612vh;
+                                                                            width: 116%;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding: 0;
+                                                                            margin: 0;
+
+                                                                        }    
+                                                                    }
+
+
+.h3{
+
+    width: 70%;
+    top: 1%;
+    font-family: 'SourceSansPro-Semibold';
+    font-size: 1.56em;
     color: #1f4ecc;
     font-style: normal;
-    text-align:left;
-    line-height:0.75em;
-    letter-spacing:0em;
- }   
-                                                          
+    text-align: left;
+    line-height: 1.34em;
+    letter-spacing: 0em;
+    position: absolute;
+
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .h3{
+
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .h3{
+                                                                            
+                                                                        }
+                                                                    }
+
+                                                           
+.p3{
+
+    width: 75%;
+    top: 25%;
+    font-family: 'SourceSansPro-Semibold';
+    font-size: 1em;
+    color: #1f4ecc;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.34em;
+    letter-spacing: 0em;
+    position: absolute;
+ }
+
+                                                                     @media only screen and (max-width: 768px){
+                                                                        .p3{
+
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .p3{
+                                                                            
+                                                                        }
+                                                                    }
+
+
 
 footer{
     background:url("pencil2.jpg")no-repeat center center;
@@ -310,23 +912,367 @@ footer{
     justify-content: center;
     align-items: center;
 }
-                                                          
-.menu-footer{
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        footer{
+                                                                            display: flex;
+                                                                            flex-direction: row;
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        footer{
+                                                                            position: relative;
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            height: 100vh;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        footer{
+                                                                            display: flex;
+                                                                            position: relative;
+                                                                            width: 157%;
+                                                                            height: 158vh;
+                                                                            padding: 0;
+                                                                            margin: 0;
+
+                                                                        }    
+                                                                    }
+
+
+
+#contato{
+    position: relative;
+}
+
+.footer{
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 25px;
+    position: relative;
+    width: 350%;
+    right: -200%;
+    top: -12vh;
+    height: 37vh;
+}
+
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer{
+                                                                            background-color: black;
+                                                                            opacity: 0.6;
+                                                                            border-radius: 25px;
+                                                                            position: relative;
+                                                                            width: 254%;
+                                                                            height: 42vh;
+                                                                            left: -74%;
+
+                                                                            
+                                                                        }    
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .footer{
+                                                                            width: 260%;
+                                                                            height: 67vh;
+                                                                            position: relative;
+                                                                            top: 9vh;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .footer{
+                                                                            height: 66vh;
+                                                                        }    
+                                                                    }
+
+
+
+
+.footer-descrição{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    left: 33%;
+    top: -5%;
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-descrição{
+                                                                            color: white;
+                                                                            position: absolute;
+                                                                            top: 2%;
+                                                                            left: 31%;
+                                                                            font-size: 27px;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .footer-descrição{
+                                                                            position: absolute;
+                                                                            left: 30%;
+                                                                            font-size: 32px;
+                                                                            top: 2%;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .footer-descrição{
+
+                                                                        }    
+                                                                    }
+
+
+.footer-item{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 28%;
+    left: 13%;
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-item{
+                                                                           position: absolute;
+                                                                            color: white;
+                                                                            top: 24%;
+                                                                            left: 6%;
+                                                                            font-size: 19px;
+                                                                        }
+                                                                    }
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .footer-item{
+                                                                            position: absolute;
+                                                                            color: white;
+                                                                            top: 24%;
+                                                                            left: 14%;
+                                                                            font-size: 21px
+
+                                                                        }
+                                                                    }
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .footer-item{
+                                                                            position: absolute;
+                                                                            color: white;
+                                                                            top: 25%;
+                                                                            left: 8%;
+                                                                            font-size: 23px;
+
+                                                                        }
+                                                                    }
+
+
+
+.footer-tel{
+    position: relative;
+    color: white;
+    top: 42%;
+    left: 14%;
+    padding: 0;
+    margin: -7px;
+    font-size: 20px;
+    width: 35%;
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-tel{
+                                                                            color: white;
+                                                                            position: absolute;
+                                                                            top: 38%;
+                                                                            left: 6%;
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px) {
+                                                                        .footer-tel{
+                                                                            position: absolute;
+                                                                            left: 14%;
+                                                                            font-size: 20px;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .footer-tel{
+                                                                            position: absolute;
+                                                                            width: 62%;
+                                                                            font-size: 27px;
+                                                                            left: 10%;
+
+                                                                        }    
+                                                                    }
+
+
+
+
+
+.footer-menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 
 }
-                                                           
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-menu{
+                                                                            padding: 0;
+                                                                            margin: 0;
+                                                                        }    
+                                                                    }
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .footer-menu{
+
+                                                                        }
+                                                                    }
+
+
+.footer-link1{
+
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer--link1{
+
+                                                                        }
+                                                                    }
+
+
+
+.footer-link2{
+
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-link2{
+                                                                                
+                                                                        }
+                                                                    }
+
+.footer-fb{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 25%;
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-fb{
+                                                                                position: relative;
+                                                                                top: 24vh;
+                                                                                width: 64%;
+                                                                                left: 22%;
+;
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .footer-fb{
+                                                                               width: 92%;
+                                                                                position: relative;
+                                                                                left: -48%;
+                                                                                top: 38vh;
+
+
+                                                                        }
+                                                                    }
+
+
+                                                                    @media only screen and (max-width: 320px) {
+                                                                        .footer-fb{
+                                                                                position: relative;
+                                                                                left: -54%;
+                                                                                top: 38vh;
+                                                                                width: 99%;
+
+
+                                                                        }    
+                                                                    }
+
+
+.footer-yt{
+    position: absolute;
+    width: 25%;
+    border-radius: 79px;
+    top: 51%;
+    right: 7%;
+}
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .footer-yt{
+                                                                                width: 25%;
+                                                                                position: absolute;
+                                                                                border-radius: 50%;
+                                                                                right: 7%;
+                                                                                top: 57%;
+
+                                                                        }
+                                                                         
+                                                                    }
+
+                                                                    @media only screen and (max-width: 620px){
+                                                                        .footer-yt{
+                                                                                position: absolute;
+                                                                                width: 34%;
+                                                                                right: 12%;
+
+                                                                        }
+                                                                    }
+
+                                                                    @media only screen and (max-width: 320px){
+                                                                        .footer-yt{
+                                                                                width: 37%;
+                                                                                position: absolute;
+                                                                                border-radius: 50%;
+                                                                                right: 9%;
+                                                                                top: 59%;       
+                                                                        }
+                                                                    }
+
+
 .lista{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
+
+                                                                    @media only screen and (max-width: 768px){
+                                                                        .lista{
+                                                                            
+                                                                        }    
+                                                                    }
+
                                                           
 .lista img{
     border-radius: 50%;
 }
+
+
                                                         
- /* @media only screen and (max-width: 768px){*/
+
+
+
+
